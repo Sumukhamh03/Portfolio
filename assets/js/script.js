@@ -2,7 +2,7 @@
 
 function redirectToSite(event, url) {
   event.preventDefault();
-  window.location.href = url;
+  window.open(url, '_blank')
 }
 
 
